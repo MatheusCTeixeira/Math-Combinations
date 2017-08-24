@@ -41,8 +41,7 @@ void combinacao(const T& set, int n, int p)
 
     //processamento    
     for (int i = 0;i< num(n,p); ++i)
-    {
-        std::cout << std::setw(5) << (i+1) << "- "; 
+    {    
         show(vec, set);//Displays the combination
         vec.back()++;
 
