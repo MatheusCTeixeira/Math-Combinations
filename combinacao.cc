@@ -27,23 +27,23 @@ void show(const std::vector<int>& v, const T& set)
 template <typename T>
 void combinacao(const T& set, int n, int p)
 {
-    //pré-condições
+    //Preconditions
     if (n<p)
         return;//throw?
     ///////////
 
-    //inicialização
+    //Initialization
     std::vector<int> vec;    
 
     for (int i=0; i<p ;++i)
-        vec.push_back(i);//primeira combinação possível para todos os casos
+        vec.push_back(i);//First possible combination for all cases
     ///////////////
 
     //processamento    
     for (int i = 0;i< num(n,p); ++i)
     {
         std::cout << std::setw(5) << (i+1) << "- "; 
-        show(vec, set);//exibe a combinação
+        show(vec, set);//Displays the combination
         vec.back()++;
 
         while ((vec.back()+(p-vec.size())) >= n)
@@ -64,6 +64,9 @@ int main()
 {
     std::vector<std::string> set{std::string{"A"},std::string{"B"},std::string{"C"},std::string{"D"},std::string{"E"}};    
     combinacao<std::vector<std::string>>(set, set.size(), 3);
+    // or
+    //std::vector<std::string>
+    //combinacao<std::string>(set, set.size(), 3);
 
     return 0;
 }
