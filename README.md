@@ -1,127 +1,27 @@
 # Math-Combinations
 
-input:ABCDEFGHIJ
+input:{A,B,C,D,E}
 
 
-output: Comb(10,3): 10!/(3!(10-3)!) = 120
+output: Comb(5,3): 5!/(3!(5-3)!) = 10
     1- A B C 
+    
     2- A B D 
+    
     3- A B E 
-    4- A B F 
-    5- A B G 
-    6- A B H 
-    7- A B I 
-    8- A B J 
-    9- A C D 
-   10- A C E 
-   11- A C F 
-   12- A C G 
-   13- A C H 
-   14- A C I 
-   15- A C J 
-   16- A D E 
-   17- A D F 
-   18- A D G 
-   19- A D H 
-   20- A D I 
-   21- A D J 
-   22- A E F 
-   23- A E G 
-   24- A E H 
-   25- A E I 
-   26- A E J 
-   27- A F G 
-   28- A F H 
-   29- A F I 
-   30- A F J 
-   31- A G H 
-   32- A G I 
-   33- A G J 
-   34- A H I 
-   35- A H J 
-   36- A I J 
-   37- B C D 
-   38- B C E 
-   39- B C F 
-   40- B C G 
-   41- B C H 
-   42- B C I 
-   43- B C J 
-   44- B D E 
-   45- B D F 
-   46- B D G 
-   47- B D H 
-   48- B D I 
-   49- B D J 
-   50- B E F 
-   51- B E G 
-   52- B E H 
-   53- B E I 
-   54- B E J 
-   55- B F G 
-   56- B F H 
-   57- B F I 
-   58- B F J 
-   59- B G H 
-   60- B G I 
-   61- B G J 
-   62- B H I 
-   63- B H J 
-   64- B I J 
-   65- C D E 
-   66- C D F 
-   67- C D G 
-   68- C D H 
-   69- C D I 
-   70- C D J 
-   71- C E F 
-   72- C E G 
-   73- C E H 
-   74- C E I 
-   75- C E J 
-   76- C F G 
-   77- C F H 
-   78- C F I 
-   79- C F J 
-   80- C G H 
-   81- C G I 
-   82- C G J 
-   83- C H I 
-   84- C H J 
-   85- C I J 
-   86- D E F 
-   87- D E G 
-   88- D E H 
-   89- D E I 
-   90- D E J 
-   91- D F G 
-   92- D F H 
-   93- D F I 
-   94- D F J 
-   95- D G H 
-   96- D G I 
-   97- D G J 
-   98- D H I 
-   99- D H J 
-  100- D I J 
-  101- E F G 
-  102- E F H 
-  103- E F I 
-  104- E F J 
-  105- E G H 
-  106- E G I 
-  107- E G J 
-  108- E H I 
-  109- E H J 
-  110- E I J 
-  111- F G H 
-  112- F G I 
-  113- F G J 
-  114- F H I 
-  115- F H J 
-  116- F I J 
-  117- G H I 
-  118- G H J 
-  119- G I J 
-  120- H I J 
+    
+    4- A C D 
+    
+    5- A C E 
+    
+    6- A D E 
+    
+    7- B C D 
+    
+    8- B C E 
+    
+    9- B D E 
+    
+   10- C D E 
+
 
