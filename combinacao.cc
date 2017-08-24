@@ -39,11 +39,10 @@ void combinacao(const T& set, int n, int p)
     ///////////////
 
     //processamento    
-    for (int i = 0;i< num(n,p); ++i)
-    {    
-        show(vec, set);//Displays the combination
+    while (true)
+    {                
+        show(vec, set);//exibe a combinação
         vec.back()++;
-
         while ((vec.back()+(p-vec.size())) >= n)
         {
             vec.pop_back();
@@ -51,7 +50,6 @@ void combinacao(const T& set, int n, int p)
                 return;
             vec.back()++;
         }     
-
         while (vec.size() < p)
             vec.push_back(vec.back() + 1);
     }
